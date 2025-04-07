@@ -44,6 +44,3 @@ async function updateStatusBlock() {
 
 // メイン実行
 updateStatusBlock().catch(console.error);
-
-const cron = require('node-cron');
-cron.schedule('* * * * *', () => updateStatusBlock());
