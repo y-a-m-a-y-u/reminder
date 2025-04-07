@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "ncc build ./src/app.js --license license.txt -o dist"
+    "start": "node ./src/app.js"
   },
   "keywords": [],
   "author": "",
