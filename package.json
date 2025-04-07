@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "build": "ncc build ./src/index.js --license license.txt -o dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0",
     "@notionhq/client": "^2.3.0",
+    "@vercel/ncc": "^0.38.3",
     "dotenv": "^16.4.7",
     "git": "^0.1.5",
     "node-cron": "^3.0.3"
