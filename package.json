@@ -1,0 +1,18 @@
+{
+  "name": "notion-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@notionhq/client": "^2.3.0",
+    "dotenv": "^16.4.7",
+    "git": "^0.1.5",
+    "node-cron": "^3.0.3"
+  }
+}
