@@ -3,8 +3,6 @@ name: 定期実行+GitPushごとに実行
 on:
   push:
     branches: [ "master" ]
-  schedule:
-    - cron:  '* * * * *'
 
 jobs:
   build:
