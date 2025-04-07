@@ -46,8 +46,8 @@ jobs:
       - name: Create debug build
         if: ${{ !inputs.release }}
         run: |
-          git config --local user.email "yuyu.energy01@gmail.com"
-          git config --local user.name "y-a-m-a-y-u"
+          git config --global user.email "yuyu.energy01@gmail.com"
+          git config --global user.name "y-a-m-a-y-u"
           git fetch origin build
           git switch build
           git merge master
