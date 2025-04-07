@@ -50,7 +50,7 @@ jobs:
           git config --global user.name "y-a-m-a-y-u"
           git fetch origin build
           git switch build
-          git merge main
+          git merge master
           npm install
           npm run build
       - name: Push to GitHub
