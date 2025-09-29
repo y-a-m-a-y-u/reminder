@@ -1,7 +1,7 @@
 require('dotenv').config();
 const { Client } = require("@notionhq/client")
 
-const notion = new Client({ auth: "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" });
+const notion = new Client({ auth: process.env.NOTION_TOKEN });
 
 // ステータスカウント取得関数
 async function getStatusCounts() {
